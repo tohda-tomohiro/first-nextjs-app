@@ -1,3 +1,9 @@
+## 完成デモ
+https://first-nextjs-woad.vercel.app/
+
+## ページ構成
+<img src="https://github.com/tohda-tomohiro/first-nextjs-app/assets/154492181/f07713f3-b89f-4406-9af0-8818a95fe0a3" width="500" />
+
 ## プロジェクト作成
 
 以下、npm 部分は各自のツール yarn , pnpm などに置き換えても問題ないです。
@@ -441,26 +447,7 @@ https://github.com/tohda-tomohiro/first-nextjs-app/assets/154492181/80d346d0-a82
 
 ### 共通部分のレイアウト化
 
-<aside>
-📖 **app ディレクトリの構成**
-
-├ favicon.ico
-
-├ layout.jsx
-
-├ page.jsx
-
-└ /main
-
-├ layout.jsx — 新規作成
-
-├ page.jsx
-
-└ /pfofile
-
-└ page.jsx
-
-</aside>
+![Group 13](https://github.com/tohda-tomohiro/first-nextjs-app/assets/154492181/c1813ff1-9f1b-4319-b30c-160e9d139567)
 
 - app/main/layout.jsx
   ```jsx
