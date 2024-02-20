@@ -6,7 +6,7 @@
 npx create-next-app@latest
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/1d3c6301-565a-42f7-a2a5-ae6b5d0b4bed/ea745b33-10e7-4af0-8495-26b63721865f/Untitled.png)
+![Untitled](https://github.com/tohda-tomohiro/first-nextjs-app/assets/154492181/8feebd25-636f-444d-b0e8-7f8b5f2e5578)
 
 ### Chakra UI インストール
 
@@ -38,7 +38,7 @@ VSCode の拡張機能もインストールして有効化してください。
 - app/page.module.css
 
 <aside>
-📖 **app ディレクトリの初期構成**
+📖 app ディレクトリの初期構成
 
 ├ favicon.ico
 
@@ -98,7 +98,7 @@ npm run dev
 
 アプリケーション内の異なるコンポーネント間でデータを共有するための仕組みとして、React Context があります。Provider は、その Context のデータを保持し、そのデータをコンテキスト内のコンポーネントと共有するための手段です。これにより、コンポーネント間でのデータの共有が簡単になります。
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/1d3c6301-565a-42f7-a2a5-ae6b5d0b4bed/99555b44-3a96-4d11-be72-1f904b039999/Untitled.png)
+<img src="https://github.com/tohda-tomohiro/first-nextjs-app/assets/154492181/b7fd0ca3-1a49-4402-907c-c3b8a573e720" width="300">
 
 </aside>
 
@@ -174,7 +174,7 @@ Next.js（App Router）のファイルシステムベースのルーティング
 | ------------------------ | ------------ |
 | マッピング対象のファイル | app/page.jsx |
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/1d3c6301-565a-42f7-a2a5-ae6b5d0b4bed/f6d17a87-d2be-4987-b11b-bf0dd68e8905/Untitled.png)
+![top](https://github.com/tohda-tomohiro/first-nextjs-app/assets/154492181/6384a25c-6313-4f7f-bca4-ffe0ec8c377e)
 
 - app/page.jsx
   ```jsx
@@ -209,7 +209,7 @@ Next.js（App Router）のファイルシステムベースのルーティング
 | ------------------------ | ----------------- |
 | マッピング対象のファイル | app/main/page.jsx |
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/1d3c6301-565a-42f7-a2a5-ae6b5d0b4bed/e0f801bc-ab6b-48de-8053-ee76d0f17e7e/Untitled.png)
+![main](https://github.com/tohda-tomohiro/first-nextjs-app/assets/154492181/4dbd03ce-a332-41e5-b4f1-952102287322)
 
 - app/main/page.jsx
   ```jsx
@@ -279,7 +279,7 @@ Next.js（App Router）のファイルシステムベースのルーティング
 | ------------------------ | ------------------------- |
 | マッピング対象のファイル | app/main/profile/page.jsx |
 
-[Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/1d3c6301-565a-42f7-a2a5-ae6b5d0b4bed/910b316b-d634-45f7-90db-a5dd5aa0f143/Untitled.mp4)
+https://github.com/tohda-tomohiro/first-nextjs-app/assets/154492181/80d346d0-a825-45a2-aace-b9fe90fcf0f1
 
 1. メインページを複製し、プロフィールページを作成します。
 2. メインページとプロフィールページのコンテンツを修正します。
