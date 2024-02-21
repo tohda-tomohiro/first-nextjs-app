@@ -43,20 +43,15 @@ VSCode の拡張機能もインストールして有効化してください。
 - app/globals.css
 - app/page.module.css
 
-<aside>
-📖 app ディレクトリの初期構成
+**app ディレクトリの初期構成** 
 
-├ favicon.ico
-
-├ layout.js
-
-└ page.js
-
-</aside>
+<img src="https://github.com/tohda-tomohiro/first-nextjs-app/assets/154492181/88515343-3811-4567-9562-8980b04d15bd" />
 
 ### 初期ファイルの修正
+拡張子は、`.js` から `.jsx` に変更してください。  
+Babel は `.js` 内のJSXコンパイルできますが、ファイル内でJSXを利用していることを明示的にするためです。
 
-app/layout.js
+app/layout.jsx
 
 ```jsx
 export const metadata = {
@@ -73,7 +68,7 @@ export default function RootLayout({ children }) {
 }
 ```
 
-app/page.js
+app/page.jsx
 
 ```jsx
 export default function Page() {
@@ -609,36 +604,16 @@ https://github.com/tohda-tomohiro/first-nextjs-app/assets/154492181/80d346d0-a82
 
 ## コンポーネントの作成
 
-\_components ディレクトリを作成し、その配下にコンポーネントをまとめます。
+\_components ディレクトリを作成し、その配下にコンポーネントをまとめます。   
+ディレクトリに `_` がつくと、AppRouterのルーティング対象から除外されます。  
 
-<aside>
-📖 **app ディレクトリの構成**
+### コンポーネントファイルをどこにおくべきか
+Next.js の AppRouter では、ディレクトリ構成を自由に定義できます。  
+今回はディレクトリ構成に、コロケーション（co-location）を採用しています。  
+関連するリソース同士を近くに置いておくことで、可読性と保守性が向上します。  
 
-├ favicon.ico
+![Group 16](https://github.com/tohda-tomohiro/first-nextjs-app/assets/154492181/92cb20b9-6b6c-4ded-b065-b8073b6f3067)
 
-├ layout.jsx
-
-├ page.jsx
-
-└ /main
-
-├ layout.jsx
-
-├ page.jsx
-
-├ /\_components — 新規作成
-
-┃└ Navbar.jsx
-
-├ /pfofile
-
-┃└ page.jsx
-
-└ /settings
-
-└ page.jsx
-
-</aside>
 
 ### ナビゲーションバー
 
